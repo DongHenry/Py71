@@ -2,5 +2,7 @@
   "editor.detectIndentation": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
-  "python.formatting.provider": "yapf",
+  "python.formatting.provider": "autopep8",
+  // 在一定数量的等宽字符后显示垂直标尺。输入多个值，显示多个标尺。若数组为空，则不绘制标尺。
+  "editor.rulers": [80],
 }
